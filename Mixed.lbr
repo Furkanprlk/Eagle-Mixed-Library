@@ -73,11 +73,90 @@
 </layers>
 <library>
 <packages>
+<package name="SOT95P280X115-6N" urn="urn:adsk.eagle:footprint:23179186/1">
+<description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.92 X 1.60 X 1.15 mm body
+&lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.92 X 1.60 X 1.15 mm&lt;/p&gt;</description>
+<circle x="-1.354" y="1.7486" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.85" y1="1.5586" x2="0.85" y2="1.5586" width="0.12" layer="21"/>
+<wire x1="-0.85" y1="-1.5586" x2="0.85" y2="-1.5586" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-1.51" x2="-0.85" y2="-1.51" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-1.51" x2="-0.85" y2="1.51" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="1.51" x2="0.85" y2="1.51" width="0.12" layer="51"/>
+<wire x1="0.85" y1="1.51" x2="0.85" y2="-1.51" width="0.12" layer="51"/>
+<smd name="1" x="-1.2496" y="0.95" dx="1.1709" dy="0.5891" layer="1"/>
+<smd name="2" x="-1.2496" y="0" dx="1.1709" dy="0.5891" layer="1"/>
+<smd name="3" x="-1.2496" y="-0.95" dx="1.1709" dy="0.5891" layer="1"/>
+<smd name="4" x="1.2496" y="-0.95" dx="1.1709" dy="0.5891" layer="1"/>
+<smd name="5" x="1.2496" y="0" dx="1.1709" dy="0.5891" layer="1"/>
+<smd name="6" x="1.2496" y="0.95" dx="1.1709" dy="0.5891" layer="1"/>
+<text x="0" y="2.6336" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.1936" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="SOT95P280X115-6N" urn="urn:adsk.eagle:package:23179178/1" type="model">
+<description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.92 X 1.60 X 1.15 mm body
+&lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.92 X 1.60 X 1.15 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P280X115-6N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
+<symbol name="DIL6">
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94" curve="180"/>
+<text x="-4.445" y="4.445" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.445" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="ISET" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="BATN" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="BıAS" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="SW" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="BATP" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="BATC" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="ETA3000">
+<gates>
+<gate name="G$1" symbol="DIL6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X115-6N">
+<connects>
+<connect gate="G$1" pin="BATC" pad="6"/>
+<connect gate="G$1" pin="BATN" pad="2"/>
+<connect gate="G$1" pin="BATP" pad="5"/>
+<connect gate="G$1" pin="BıAS" pad="3"/>
+<connect gate="G$1" pin="ISET" pad="1"/>
+<connect gate="G$1" pin="SW" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23179178/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
