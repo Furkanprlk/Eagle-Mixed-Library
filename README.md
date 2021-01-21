@@ -7,3 +7,4 @@
 | SMD Led            | 0603, 0805, 1206              | ✅ Available     |  ✅  | not checked |
 | Led 5mm            | Led5mm                        | ✅ Available     |  ✅  | not checked |
 | 7805               | TO-92, TO-200, TO-252 (DPAK)  | ✅ Available     |  ✅  | not checked |
+| ESP8266            | E-12                          | ❌ Not Available |  ✅  | not checked |
