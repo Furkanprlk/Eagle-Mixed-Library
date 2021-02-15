@@ -16,3 +16,10 @@ I shared the libraries I use
 | ESP8266            | E-12                          | ✅ Available     |  ✅  | not checked |
 | WEMOS D1 Mini      | WEMOS-D1_MINI                 | ✅ Available     |  ✅  | not checked |
 | ESP32-Wroom        | Esp32-Wroom SMD               | ✅ Available     |  ✅  | not checked |
+
+
+##Coming Soon
+ * Xbee Pro
+ * Xbee
+ * Arduino Nano
+ * Eta3000
