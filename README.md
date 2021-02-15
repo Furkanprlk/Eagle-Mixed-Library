@@ -1,5 +1,9 @@
 # Eagle Mixed Library
 
+![Photo1](https://github.com/Furkanprlk/Eagle-Mixed-Library/blob/master/image/Top.png)
+![Photo2](https://github.com/Furkanprlk/Eagle-Mixed-Library/blob/master/image/photo2.png)
+
+
 | Device             | Footprint                     | 3D Package        | EAGLE |  Fusion360 |
 | -------------------| ------------------------------| ------------------| ------| -----------|
 | SMD Capacitors     | C1206, C0805, C0603           | ✅ Available     |  ✅  | not checked |
