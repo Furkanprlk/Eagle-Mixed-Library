@@ -18,7 +18,7 @@ I shared the libraries I use
 | ESP32-Wroom        | Esp32-Wroom SMD               | ✅ Available     |  ✅  | not checked |
 
 
-##Coming Soon
+## Coming Soon
  * Xbee Pro
  * Xbee
  * Arduino Nano
