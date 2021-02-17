@@ -23,3 +23,12 @@ I shared the libraries I use
 
 ## Coming Soon
  * Eta3000
+ * STM32F103 (Bluepill)
+ * 16x2 LCD Display
+ * Raspberry Pi
+ * Li-Ion Battery 18650 Package
+ * Button
+ * Header (M/F)
+ * Buzzer
+ * Potentiometers
+ * Relay
