@@ -33,3 +33,9 @@ My application version v9.6.2
  * Buzzer
  * Potentiometers
  * Relay
+ * Raspberry Pi Pico
+ * Raspberry Pi Zero
+ * Raspberry Pi 4 Model B 
+ * BMP280
+ * 10Dof IMU
+ * NodeMCU
