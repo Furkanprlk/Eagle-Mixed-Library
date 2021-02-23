@@ -20,6 +20,9 @@ My application version v9.6.2
 | XBee               | XBee                          | ✅ Available     |  ✅  | not checked | not checked    |
 | XBee Pro           | XBee Pro                      | ✅ Available     |  ✅  | not checked | not checked    |
 | Arduino Nano v3.0  | Arduino Nano                  | ✅ Available     |  ✅  | not checked | not checked    |
+| Esp32 Cam          | Esp32 Cam                     | ✅ Available     |  ✅  | not checked | not checked    |
+| BME280             | BME280                        | ✅ Available     |  ✅  | not checked | not checked    |
+| HC SR04            | Horizontal, Vertical          | ✅ Available     |  ✅  | not checked | not checked    |
 
 
 ## Coming Soon
@@ -36,6 +39,5 @@ My application version v9.6.2
  * Raspberry Pi Pico
  * Raspberry Pi Zero
  * Raspberry Pi 4 Model B 
- * BMP280
  * 10Dof IMU
  * NodeMCU
