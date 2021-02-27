@@ -43,6 +43,5 @@ My application version v9.6.2
  * Relay
  * Raspberry Pi Pico
  * Raspberry Pi Zero
- * Raspberry Pi 4 Model B 
  * 10Dof IMU
  * NodeMCU
